@@ -1,0 +1,71 @@
+{
+ "head": {
+  "queries": 94500,
+  "seconds": 0
+ },
+ "layer0/cluster": {
+  "clusters": 32,
+  "queries": 0,
+  "seconds": 59
+ },
+ "layer0/refine": {
+  "queries": 638967,
+  "seconds": 3
+ },
+ "layer0/signs": {
+  "queries": 1846384,
+  "seconds": 11
+ },
+ "layer0/solve": {
+  "clusters": 32,
+  "dropped_or_merged": 0,
+  "neurons": 32,
+  "queries": 0,
+  "seconds": 1
+ },
+ "layer1/cluster": {
+  "clusters": 32,
+  "queries": 0,
+  "seconds": 101
+ },
+ "layer1/refine": {
+  "queries": 744354,
+  "seconds": 4
+ },
+ "layer1/signs": {
+  "queries": 2640932,
+  "seconds": 20
+ },
+ "layer1/solve": {
+  "clusters": 32,
+  "dropped_or_merged": 0,
+  "neurons": 32,
+  "queries": 0,
+  "seconds": 1
+ },
+ "layer2/cluster": {
+  "clusters": 32,
+  "queries": 0,
+  "seconds": 24
+ },
+ "layer2/refine": {
+  "queries": 894431,
+  "seconds": 7
+ },
+ "layer2/signs": {
+  "queries": 11562460,
+  "seconds": 142
+ },
+ "layer2/solve": {
+  "clusters": 32,
+  "dropped_or_merged": 0,
+  "neurons": 32,
+  "queries": 0,
+  "seconds": 1
+ },
+ "walk": {
+  "duals": 6901,
+  "queries": 20246701,
+  "seconds": 24
+ }
+}

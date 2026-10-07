@@ -1,0 +1,21 @@
+# System and junk
+%SystemDrive%/
+**/.git_backup/
+.DS_Store
+Thumbs.db
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.temp.html
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Editor
+.vscode/
+.idea/
