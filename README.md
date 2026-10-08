@@ -18,6 +18,7 @@
 
 | 文档名称 | 格式 | 核心内容说明 |
 | :--- | :--- | :--- |
+| **深层耗时与模型规模剖析** | [Markdown](MODEL_SCALE_AND_RUNTIME_ANALYSIS.md) \| [PDF](MODEL_SCALE_AND_RUNTIME_ANALYSIS.pdf) | 深度剖析 16 小时深层权重提取瓶颈、32 维 vs 3072 维模型设计定位 |
 | **服务器端实验复现报告** | [Markdown](SERVER_EXPERIMENT_RESULTS.md) \| [PDF](SERVER_EXPERIMENT_RESULTS.pdf) | RTX 4090 环境全套实验数据、4000万次查询耗时、误差对比、环境避坑实录 |
 | **本地 CPU 实验复现报告** | [Markdown](CPU_EXPERIMENT_RESULTS.md) \| [PDF](CPU_EXPERIMENT_RESULTS.pdf) | 本地多核 CPU (Conda) 复现数据、单机各阶段查询与收敛对比 |
 | **实验产物与存储指引** | [Markdown](EXPERIMENT_OUTPUTS_GUIDE.md) \| [PDF](EXPERIMENT_OUTPUTS_GUIDE.pdf) | `net.npz`、`stats.json`、`duals`、`df.pkl` 等底层实验结果文件的存放与结构解析 |
@@ -176,3 +177,4 @@ python create_tables.py --model unitary_32_32x3_10_float64
 ```
 
 感谢原作者开源的基础算法原型，本项目在此基础上完成了完整的跨平台验证、自动化构建工具链与系统性实验复现评测。
+
